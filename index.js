@@ -1,7 +1,8 @@
 function convStr(str){
     let convToArray = str.split("");
+    let reverseArray = convToArray.reverse();
 
-    console.log(convToArray);
+    console.log(reverseArray);
 }
 
 convStr('hello');
